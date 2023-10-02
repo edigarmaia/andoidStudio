@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Exercicio3MaisLayouts</string>
+    <string name="rgm">RGM: 29113433</string>
+    <string name="nome">EDIGAR MAIA DOS SANTOS</string>
+    <string name="auto">AUTO</string>
+    <string name="portateis">PORTÁTEIS</string>
+    <string name="empresarial">EMPRESARIAL</string>
+    <string name="residencial">RESIDENCIAL</string>
+    <string name="viagem">VIAGEM</string>
+</resources>

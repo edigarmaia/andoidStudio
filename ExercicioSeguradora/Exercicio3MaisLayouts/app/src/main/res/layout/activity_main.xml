@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtRgm"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/rgm"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/txtNome"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:text="@string/nome"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtRgm" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/imgPrincipal"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:layout_margin="3dp"
+            android:layout_weight="1"
+            android:onClick="abrirPrincipal"
+            android:padding="15dp"
+            android:text="PRINCIPAL"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            app:icon="@drawable/baseline_home_24"
+            app:iconGravity="textTop"
+            app:iconSize="40sp"
+            app:iconTint="@color/black" />
+
+        <Button
+            android:id="@+id/imgAuto"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:layout_margin="3dp"
+            android:layout_weight="1"
+            android:onClick="abrirAuto"
+            android:padding="15dp"
+            android:text="AUTO"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            app:icon="@drawable/baseline_airport_shuttle_24"
+            app:iconGravity="textTop"
+            app:iconSize="40sp"
+            app:iconTint="@color/black" />
+
+        <Button
+            android:id="@+id/imgPortateis"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:layout_margin="3dp"
+            android:layout_weight="1"
+            android:onClick="abrirPortateis"
+            android:padding="20dp"
+            android:text="PORTÁTEIS"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            app:icon="@drawable/baseline_devices_24"
+            app:iconGravity="textTop"
+            app:iconSize="40sp"
+            app:iconTint="@color/black" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/imgEmpresarial"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:layout_margin="3dp"
+            android:layout_weight="1"
+            android:onClick="abrirEmpresarial"
+            android:padding="15dp"
+            android:text="EMPRESARIAL"
+            android:textColor="@color/black"
+            android:textSize="13sp"
+            app:icon="@drawable/baseline_corporate_fare_24"
+            app:iconGravity="textTop"
+            app:iconSize="40sp"
+            app:iconTint="@color/black" />
+
+
+        <Button
+            android:id="@+id/imgResidencial"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:layout_margin="3dp"
+            android:layout_weight="1"
+            android:onClick="abrirResidencial"
+            android:padding="15dp"
+            android:text="RESIDENCIAL"
+            android:textColor="@color/black"
+            android:textSize="13sp"
+            app:icon="@drawable/baseline_house_24"
+            app:iconGravity="textTop"
+            app:iconSize="40sp"
+            app:iconTint="@color/black" />
+
+
+        <Button
+            android:id="@+id/imgViajem"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:layout_margin="3dp"
+            android:layout_weight="1"
+            android:onClick="abrirViagem"
+            android:padding="15dp"
+            android:text="VIAGEM"
+            android:textColor="@color/black"
+            android:textSize="13sp"
+            app:icon="@drawable/baseline_card_travel_24"
+            app:iconGravity="textTop"
+            app:iconSize="40sp"
+            app:iconTint="@color/black" />
+
+    </LinearLayout>
+
+</LinearLayout>
